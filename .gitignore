@@ -1,0 +1,6 @@
+Temp
+UnityPackageManager
+Library
+*.csproj
+*.sln
+*.collabignore

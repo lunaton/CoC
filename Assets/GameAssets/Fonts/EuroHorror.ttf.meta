@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 082d2a28e4f45ff4c8167f2a58e4d3c4
+timeCreated: 1515694779
+licenseType: Pro
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: EuroHorror
+  fontNames:
+  - EuroHorror
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
