@@ -10,8 +10,9 @@ public abstract class WeaponBase : MonoBehaviour
     [SerializeField] protected int _damage;
     [SerializeField] private int _maxAmmunition;
     [SerializeField] private AudioClip _emptySFX;
-
     [SerializeField] private bool infinityAmmunition;
+    public bool unlocked;
+
 
 
     private float _nextTimeShoot;

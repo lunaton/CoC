@@ -26,9 +26,10 @@ public class ShooterCharacter : MonoBehaviour
         //1.b Interar por todas las armas y activar la correcta segun el parametro index
         for(int i = 0; i < _weapons.Length; i++)
         {
-            _weapons[i].gameObject.SetActive(index == i);
+            _weapons[i].gameObject.SetActive(false);
         }
 
+        if (_weapons[index].unlocked) _weapons[index].gameObject.SetActive(true);
         _currentIndex = index;
         _currentWeapon = _weapons[index];
     }
